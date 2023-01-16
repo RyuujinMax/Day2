@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7DaysOfCode - Day2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="centralizar">
+            <form id="form">
+                <label class="label-padrao" for="nome_completo">Entre com seu nome completo: </label>
+                <input type="text" id="nome_completo" class="input-padrao" required>
+        
+                <label class="label-padrao" for="idade">Entre com sua idade: </label>
+                <input type="number" name="idade" id="idade" min="1" max="99" class="input-padrao" required>
+        
+                <label class="label-padrao" for="linguagem">Qual Linguagem de programação você está estudando?</label>
+                <input type="text" id="linguagem" class="input-padrao" required>
+        
+                <button type="submit"  class="enviar">Enviar respostas</button>
+            </form>
+        </div>
+        
+        <div id="div">
+            <p id="log"></p>
+            <form>
+                <fieldset class="hide" id="fieldset">
+                    <legend id="pergunta"></legend>
+                        <input type="radio" name="resposta" class="radio" value="Sim" id="radio-sim">
+                        <label for="radio-sim">Sim</label><br>
+            
+                        <input type="radio" name="resposta" class="radio" value="Nao" id="radio-nao">
+                        <label for="radio-nao">Não</label><br>
+                </fieldset>
+            </form>
+            <p id="logradio"></p>  
+        </div>
+
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.centralizar{
+    margin-left: 500px;
+    width: 80%;
+}
+
+form{
+    margin: 40px 0;
+    padding: 15px 20px
+}
+
+#form{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 50%;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+    width: 350px;
+    text-align: center;
+}
+
+fieldset{
+    margin-top: 5px;
+    font-size: 24px;
+    margin-left: 25%;
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.radio{
+    margin: 0.4rem;
+}
+
+#form label{
+    display: block;
+    font-size: 24px;
+    margin: 10px 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 25px 5px 5px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+}
+
+.hide{
+    display: none;
+}
+
+#log{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.segundapagina{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 50%;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#logradio{
+    text-align: center;
+    font-size: 24px;
+}
