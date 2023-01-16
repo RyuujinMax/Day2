@@ -1,5 +1,3 @@
-// Receber os dados
-
 var nomecompleto, idade, linguagem;
 
 function registro(){
