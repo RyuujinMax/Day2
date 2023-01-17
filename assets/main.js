@@ -6,8 +6,6 @@ function registro(){
     linguagem = document.getElementById("linguagem").value;
 }
 
-const enviou = document.getElementsByClassName(".enviar").checked;
-
 function logSubmit(event) {
     registro();
     document.querySelector("#form").classList.add('hide');
